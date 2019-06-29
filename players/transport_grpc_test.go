@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/go-kit/kit/log"
-	"github.com/hoop33/roster/models"
-	"github.com/hoop33/roster/pb"
+	"github.com/nad2000/roster/models"
+	"github.com/nad2000/roster/pb"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/DATA-DOG/go-sqlmock.v1"
 )

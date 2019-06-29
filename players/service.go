@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"errors"
 
-	"github.com/hoop33/roster/models"
+	"github.com/nad2000/roster/models"
 	"github.com/jmoiron/sqlx"
 )
 

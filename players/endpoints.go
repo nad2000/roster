@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/go-kit/kit/endpoint"
-	"github.com/hoop33/roster/models"
+	"github.com/nad2000/roster/models"
 )
 
 // Endpoints contains all the endpoints for the players service

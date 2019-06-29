@@ -10,7 +10,7 @@ import (
 	"github.com/go-kit/kit/log"
 	kithttp "github.com/go-kit/kit/transport/http"
 	"github.com/gorilla/mux"
-	"github.com/hoop33/roster/models"
+	"github.com/nad2000/roster/models"
 )
 
 var errBadRoute = errors.New("bad route")

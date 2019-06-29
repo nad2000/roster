@@ -5,8 +5,8 @@ import (
 
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/transport/grpc"
-	"github.com/hoop33/roster/models"
-	"github.com/hoop33/roster/pb"
+	"github.com/nad2000/roster/models"
+	"github.com/nad2000/roster/pb"
 )
 
 type grpcTransport struct {

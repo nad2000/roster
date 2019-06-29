@@ -91,9 +91,9 @@ deps:
 	go get -u github.com/golang/protobuf/protoc-gen-go
 	go get -u github.com/FiloSottile/vendorcheck
 	go get -u github.com/golang/dep/cmd/dep
-	go get -u github.com/golang/lint/golint
+	go get -u golang.org/x/lint/golint
 	go get -u github.com/kisielk/errcheck
 	go get -u github.com/mdempsky/unconvert
 	go get -u github.com/opennota/check/...
-	go get -u honnef.co/go/tools/...
+	# go get -u honnef.co/go/tools/...
 	go get -u mvdan.cc/interfacer

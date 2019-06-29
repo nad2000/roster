@@ -10,10 +10,10 @@ import (
 	"syscall"
 
 	"github.com/go-kit/kit/log"
-	"github.com/hoop33/roster/pb"
-	"github.com/hoop33/roster/players"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
+	"github.com/nad2000/roster/pb"
+	"github.com/nad2000/roster/players"
 	"google.golang.org/grpc"
 )
 

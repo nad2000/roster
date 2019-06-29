@@ -25,6 +25,18 @@
 #   unused-packages = true
 
 
+required = [
+	"github.com/golang/protobuf/protoc-gen-go",
+	"github.com/FiloSottile/vendorcheck",
+	"github.com/golang/dep/cmd/dep",
+	"golang.org/x/lint/golint",
+	"github.com/kisielk/errcheck",
+	"github.com/mdempsky/unconvert",
+	"github.com/opennota/check",
+	# "honnef.co/go/tools",
+	"mvdan.cc/interfacer",
+]
+
 [prune]
   go-tests = true
   unused-packages = true

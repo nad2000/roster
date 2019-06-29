@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/go-kit/kit/log"
-	"github.com/hoop33/roster/models"
+	"github.com/nad2000/roster/models"
 )
 
 type loggingService struct {
